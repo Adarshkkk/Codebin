@@ -1,0 +1,81 @@
+.container {
+    max-width: 600px; /* Increased max-width */
+    width: 90%; /* Set width to 90% of the viewport width */
+    margin: 50px auto; /* Added margin for spacing from the top */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  h4 {
+    font-size: 24px; /* Increased font size */
+    color: #333;
+    text-align: left; /* Align text to the left */
+  }
+  
+  input[type="text"],
+  textarea {
+    width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+    padding: 15px; /* Increased padding for bigger input and textarea */
+    margin-top: 20px; /* Increased margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Increased border radius for a smoother look */
+    box-sizing: border-box;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  h5.red-text {
+    font-size: 16px; /* Increased font size */
+    color: red;
+    margin-top: 10px; /* Increased margin for spacing */
+  }
+  
+  .btn-green {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px; /* Increased padding for a bigger button */
+    border: none;
+    border-radius: 8px; /* Increased border radius for a smoother look */
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  .btn-green:hover {
+    background-color: #45a049;
+  }
+  
+  textarea {
+    width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+    padding: 15px; /* Increased padding for bigger input and textarea */
+    margin-top: 20px; /* Increased margin for spacing */
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+    resize: vertical;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  textarea::placeholder {
+    color: #888;
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 10px; /* Increased scrollbar width */
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 6px; /* Increased border radius for a smoother scrollbar */
+  }
+  
+  textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  

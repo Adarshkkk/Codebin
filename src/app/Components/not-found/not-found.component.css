@@ -1,0 +1,7 @@
+h1 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Set the text color */
+    text-align: center; /* Center align the text */
+    margin-top: 50px; /* Add some space on top */
+  }

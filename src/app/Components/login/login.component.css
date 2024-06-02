@@ -1,0 +1,59 @@
+.container {
+  max-width: 400px; /* Set max width of the form container */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+h4 {
+  margin-top: 0; /* Remove default margin */
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside inputs */
+  margin-bottom: 10px; /* Spacing between inputs */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.red-text {
+  color: #ff3333; /* Red color for error messages */
+  margin-top: 5px; /* Spacing from inputs */
+}
+
+.btn-green,
+.btn-red {
+  padding: 10px 20px; /* Padding for buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-green {
+  background-color: #4caf50; /* Green color for login button */
+  color: #fff; /* White text color */
+}
+
+.btn-green:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.btn-red {
+  background-color: #f44336; /* Red color for reset button */
+  color: #fff; /* White text color */
+}
+
+.btn-red:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Disable button when form is invalid */
+.btn-green[disabled] {
+  background-color: #cccccc; /* Light gray when disabled */
+  cursor: not-allowed; /* Show not-allowed cursor */
+}

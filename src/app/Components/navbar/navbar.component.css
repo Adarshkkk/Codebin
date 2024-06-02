@@ -1,0 +1,51 @@
+nav {
+    background-color: #333; /* Background color */
+    padding: 10px; /* Padding around the navbar */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space elements evenly */
+}
+
+/* Logo styling */
+nav h2 a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Navbar links container */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Individual navbar link styling */
+nav ul li {
+    margin-right: 20px; /* Add space between links */
+}
+
+/* Styling for active link */
+nav ul li a.active {
+    font-weight: bold; /* Make active link bold */
+    color: #ffcc00; /* Change color for active link */
+}
+
+/* Default link styling */
+nav ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect on links */
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+nav ul li.logout {
+    color: #fff; /* Text color */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+nav ul li.logout:hover {
+    color: #ffcc00; /* Change color on hover */
+}

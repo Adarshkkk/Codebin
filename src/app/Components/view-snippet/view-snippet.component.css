@@ -1,0 +1,25 @@
+div {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  h3 {
+    margin-top: 0; /* Remove default margin */
+    color: #333; /* Text color */
+    font-size: 24px; /* Font size */
+  }
+  
+  pre {
+    margin-top: 10px; /* Spacing between title and code snippet */
+    padding: 10px; /* Padding for code snippet */
+    background-color: #fff; /* White background for code snippet */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    font-size: 16px; /* Font size */
+    line-height: 1.5; /* Line height for better readability */
+    overflow-x: auto; /* Allow horizontal scrolling for long lines of code */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
